@@ -63,6 +63,7 @@ main {
   border-radius: 2rem;
 }
 
+
 .link {
   display: flex;
   margin: 2rem 0rem;
@@ -88,10 +89,18 @@ main {
     rgba(255, 255, 255, 0.3)
   );
   border: none;
-  width: 50%;
+  width: 65%;
   padding: 0.5rem;
   border-radius: 2rem;
+  margin-top: 1rem;
 }
+
+
+#search-input:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #426696;
+} 
+
 
 .stack {
   margin: 5rem;

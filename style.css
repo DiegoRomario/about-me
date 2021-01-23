@@ -120,3 +120,37 @@ main {
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
 }
+
+
+
+.progress {
+  background: linear-gradient(to right top, #65a4df, #ae6ceb);
+  width: 100%;
+  height: 25%;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(236, 236, 236);
+  position: absolute;
+  left: 60%;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.percentage {
+  font-weight: bold;
+  background: linear-gradient(to right top, #65a4df, #ae6ceb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

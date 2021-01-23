@@ -6,6 +6,7 @@
 
 
 main {
+  font-family: 'Josefin Sans', sans-serif;
   min-height: 100vh;
   background: linear-gradient(to right top, #65a4df, #ae6ceb);
   display: flex;
@@ -27,3 +28,39 @@ main {
   backdrop-filter: blur(2rem);
   display: flex;
 }
+
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+
+.link {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+.link h2 {
+  padding: 0rem 2rem;
+}
+.stack {
+  flex: 2;
+}
+
+.stack-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+

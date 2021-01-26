@@ -77,7 +77,6 @@ main {
   flex: 2;
 }
 
-
 .status {
   margin-bottom: 3rem;
 }
@@ -90,9 +89,20 @@ main {
   );
   border: none;
   width: 65%;
-  padding: 0.5rem;
   border-radius: 2rem;
-  margin-top: 1rem;
+  padding: 0.7rem 0.7rem 0.7rem 2.5rem;
+}
+
+.input-icons {
+  margin-top: 0.5rem;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons .icon {
+  padding: 0.7rem;
 }
 
 
@@ -163,3 +173,4 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
